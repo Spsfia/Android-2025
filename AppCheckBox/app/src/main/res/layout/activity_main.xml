@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbSuma"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbResta"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/multiplica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cdMultiplica"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbDivide"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:text="@string/botonOp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+</LinearLayout>

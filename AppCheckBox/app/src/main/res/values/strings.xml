@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejemplo CheckBox</string>
+    <string name="cbSuma">Sumar</string>
+    <string name="cbResta">Restar</string>
+    <string name="cdMultiplica">Multiplicar</string>
+    <string name="cbDivide">Dividir</string>
+    <string name="hint1">Teclea un numero entero</string>
+    <string name="botonOp">Realizar operación</string>
+</resources>

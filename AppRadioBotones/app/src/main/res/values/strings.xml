@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejemplo RadioBotones</string>
+    <string name="nint1">Teclea un numero entero</string>
+    <string name="nint2">Teclea otro numero entero</string>
+    <string name="botonSuma">Suma</string>
+    <string name="botonResta">Resta</string>
+    <string name="botonMult">Multiplicar</string>
+    <string name="botonDiv">Dividir</string>
+    <string name="botonOperacion">Realiza operación </string>
+
+</resources>

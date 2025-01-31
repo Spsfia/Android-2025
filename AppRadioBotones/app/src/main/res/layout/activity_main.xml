@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Display1"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/nint1"
+        android:inputType="text"
+        android:textColorHint="#989898"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/nint2"
+        android:inputType="text"
+        android:textColorHint="#989898"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona la operación aritmetica: "
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSuma"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="@string/botonSuma"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbResta"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="@string/botonResta"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbMult"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="@string/botonMult"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbDiv"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="@string/botonDiv"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:onClick="realizaOperaciones"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/botonOperacion"
+        android:textAlignment="center"
+        android:textColor="#FFF3F3"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+</LinearLayout>
