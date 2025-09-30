@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LugaresTuristicos">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Lugares turisticos"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageViewL"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:src="@drawable/lugares_turisticos" />
+
+    <TextView
+        android:id="@+id/textViewL"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:text=" Las Grutas de García, en Nuevo León, ofrecen formaciones rocosas milenarias y un teleférico con vistas panorámicas. La Cascada Cola de Caballo, en Santiago, es un hermoso salto de agua rodeado de bosques, ideal para caminatas y paseos a caballo. En Arteaga, La Viñeda destaca por su producción de vinos artesanales, ofreciendo degustaciones en un entorno natural. "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="20sp" />
+</LinearLayout>

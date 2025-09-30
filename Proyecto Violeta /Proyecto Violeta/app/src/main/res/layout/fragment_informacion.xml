@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/magenta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Informacion"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            app:srcCompat="@drawable/inf" />
+
+        <View
+            android:id="@+id/view17"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:text=" Esta aplicacion permiten a ustedes como  usuarias enviar alertas de emergencia a contactos de su confinaza y asi mismo a las autoridades de seguridad en caso de  algun riesgo. asi mismo es una aplicacion de facil uso asi mismo si te encuentras en algun peligro, solo te tienes que registar y podras oprimir un boton de ayuda y tu informacion de donde estas sera enviada "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</ScrollView>

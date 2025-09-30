@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Calculadora de IMC"
+        android:textAlignment="center"
+        android:textColor="#4A65ED"
+        android:textSize="34sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresa el peso (Kg)"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="37dp" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresa la estatura (Mts)"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <Button
+        android:id="@+id/Boton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:text="Calcula IMC"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/imc" />
+
+</LinearLayout>

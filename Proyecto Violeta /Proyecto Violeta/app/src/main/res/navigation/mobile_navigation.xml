@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectovioleta.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.example.proyectovioleta.RegistroFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_registro" />
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.proyectovioleta.HistorialFragment"
+        android:label="Historial"
+        tools:layout="@layout/fragment_historial" />
+
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="com.example.proyectovioleta.ConfiguracionFragment"
+        android:label="Configuración"
+        tools:layout="@layout/fragment_configuracion" />
+
+    <fragment
+        android:id="@+id/nav_registro"
+        android:name="com.example.proyectovioleta.RegistroFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_registro" />
+
+    <fragment
+        android:id="@+id/nav_informacion"
+        android:name="com.example.proyectovioleta.InformacionFragment"
+        android:label="Información"
+        tools:layout="@layout/fragment_informacion" />
+
+    <fragment
+        android:id="@+id/nav_violentometro"
+        android:name="com.example.proyectovioleta.ViolentometroFragment"
+        android:label="Violentometro"
+        tools:layout="@layout/fragment_violentometro" />
+
+    <fragment
+        android:id="@+id/nav_centrosInformacion"
+        android:name="com.example.proyectovioleta.CentrosDeInformacionFragment"
+        android:label="Centros de Información"
+        tools:layout="@layout/fragment_centros_de_informacion" />
+
+    <fragment
+        android:id="@+id/nav_numerosDeAtencion"
+        android:name="com.example.proyectovioleta.NumerosDeAtencionFragment"
+        android:label="Numeros de Atención"
+        tools:layout="@layout/fragment_numeros_de_atencion" />
+
+    <fragment
+        android:id="@+id/nav_tiposDeViolencia"
+        android:name="com.example.proyectovioleta.TiposDeViolenciaFragment"
+        android:label="Tipos de Violencia"
+        tools:layout="@layout/fragment_tipos_de_violencia" />
+
+    <fragment
+        android:id="@+id/nav_modalidadesDeViolencia"
+        android:name="com.example.proyectovioleta.ModalidadesDeViolenciaFragment"
+        android:label="Modalidades de Violencia"
+        tools:layout="@layout/fragment_modalidades_de_violencia" />
+
+</navigation>

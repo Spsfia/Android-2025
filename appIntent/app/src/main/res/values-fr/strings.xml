@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EjemploIntent</string>
+    <string name="mapas">Cartes googles</string>
+    <string name="abrirURL">Liem vers </string>
+    <string name="hacer_llamada">Appel un</string>
+    <string name="tomar_foto">Prende une photo</string>
+
+</resources>

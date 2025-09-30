@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/magenta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Tipos de Violencia"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Violencia psicológica: Daña la estabilidad emocional, la autoestima o la salud mental "
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Violencia física: Lesiona a la víctima mediante el uso de la fuerza, sustancias, armas u objetos "
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Violencia feminicida: La forma extrema de violencia de género contra las mujeres "
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="violencia sexual: es la actividad sexual que se realiza sin consentimiento. La víctima de este tipo de violencia sufre, por lo tanto, un abuso sexual en donde se ha podido acompañar de fuerza física o algún otro tipo de intimidación. Dentro de la violencia sexual se encuentran el acoso y la agresión con fines sexuales."
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="244dp"
+            app:srcCompat="@drawable/images" />
+
+    </LinearLayout>
+</ScrollView>

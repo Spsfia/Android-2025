@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/historial"
+            android:title="Historial" />
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/config"
+            android:title="Configuración" />
+
+
+        <item
+            android:id="@+id/nav_informacion"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Información" />
+
+
+        <item
+            android:id="@+id/nav_centrosInformacion"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="Centros de información" />
+
+        <item
+            android:id="@+id/nav_numerosDeAtencion"
+            android:icon="@drawable/numinfo"
+            android:title="Numeros de Atención" />
+
+        <item
+            android:id="@+id/nav_tiposDeViolencia"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Tipos de Violencia" />
+
+        <item
+            android:id="@+id/nav_modalidadesDeViolencia"
+            android:icon="@drawable/tiposv"
+            android:title="Modalidades de Violencia" />
+
+        <item
+            android:id="@+id/nav_violentometro"
+            android:icon="@drawable/vio"
+            android:title="Violentometro" />
+
+
+
+
+
+
+    </group>
+</menu>

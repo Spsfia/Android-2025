@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Ejemplo pase de valores"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresa un numero"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresa un numero"
+        android:inputType="numberDecimal"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <ImageButton
+        android:id="@+id/btnEnviar"
+        android:layout_width="130dp"
+        android:layout_height="104dp"
+        android:contentDescription="Enviar datos"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/sym_action_email"
+        android:translationX="150dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="10sp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textColor="#FF8A30"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adriana Sofia Solis Castro"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Gastronomia" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Gastronomia"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageViewG"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:src="@drawable/gastronomia" />
+
+    <TextView
+        android:id="@+id/textViewG"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:text=" Sus platillos más representativos incluyen la carne asada, el cabrito al pastor y los guisos a base de carne seca, ingredientes fundamentales en la cocina de la región. Además, debido a su clima templado, Arteaga es famoso por su producción de manzanas, peras y duraznos, que se utilizan en la elaboración de postres caseros, mermeladas y sidras artesanales. Entre sus delicias locales también destacan las empanadas de nuez y los tamales de acelga"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="20sp" />
+</LinearLayout>

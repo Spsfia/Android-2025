@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EjemploIntent</string>
+    <string name="mapas">Google maps</string>
+    <string name="abrirURL">Link </string>
+    <string name="hacer_llamada">Call</string>
+    <string name="tomar_foto">Take a picture</string>
+
+</resources>

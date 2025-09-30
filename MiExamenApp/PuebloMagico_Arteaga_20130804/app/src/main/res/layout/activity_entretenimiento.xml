@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Entretenimiento">
+
+    <TextView
+        android:id="@+id/textViewE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Entretenimiento"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageViewE"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:src="@drawable/entretenimiento" />
+
+    <TextView
+        android:id="@+id/textViewE1"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:text='Conocido como la "Suiza de México" por sus paisajes montañosos, es un destino ideal para los amantes del ecoturismo y los deportes de aventura. Durante el invierno, la principal atracción es la sierra de Arteaga, donde se encuentra Bosques de Monterreal, el único centro de esquí en México, que ofrece pistas para esquiar y snowboard. En otras estaciones del año, los visitantes pueden disfrutar de senderismo, ciclismo de montaña y paseos a caballo por sus bosques de pinos.'
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonRE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="20dp" />
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/magenta"
+    tools:context=".NumerosDeAtencionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Numeros de Atencion"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:src="@drawable/telfm" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="No estas sola! No sufras sola!  "
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view14"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si eres víctima de algún tipo de violencia. La línea telefónica 01 800 (01 800 422 5256)"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergencia  911"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona operación"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/suma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumar"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/resta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restar"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dividir"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/mult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplicar"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calcular"
+            android:text="Calcular"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Regresar"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/resultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#FB8546"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Adriana Sofia Solis Castro"
+        android:textAlignment="center" />
+</LinearLayout>

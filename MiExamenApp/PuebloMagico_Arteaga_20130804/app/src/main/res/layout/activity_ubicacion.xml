@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ubicacion">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Ubicación"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:src="@drawable/mapa_arteaga" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:text="Arteaga, ubicado en el estado de Coahuila, México, se encuentra en la región montañosa de la Sierra de Arteaga, con un clima templado y paisajes naturales impresionantes. Las coordenadas exactas de este pintoresco municipio son 25.4350° N, 100.9111° W. Es un destino popular para quienes buscan disfrutar del ecoturismo y las actividades al aire libre."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonMapa"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="abrirMapas"
+            android:text="Mapa"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonRU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Regresar"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

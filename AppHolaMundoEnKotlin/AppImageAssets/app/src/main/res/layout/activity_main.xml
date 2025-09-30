@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mis contactos"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre del contacto"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono del contacto"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="botones CRUD"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/create_btn" />
+
+        <ImageButton
+            android:id="@+id/btnRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="botones CRUD"
+            android:onClick="onClickBtnRead"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/read_btn" />
+
+        <ImageButton
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="botones CRUD"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/update_btn" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="botones CRUD"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/delete_btn_round" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
